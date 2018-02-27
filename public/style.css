@@ -1,0 +1,135 @@
+body {
+  font-family: Arial;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 80px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 35px;
+  margin-top: 10px;
+}
+
+.content {
+  max-width: 1300px;
+  margin: 20px auto 40px auto;
+  padding: 20px 60px;
+  display: flex;
+  line-height: 1.5;
+
+}
+
+.infoheader {
+  text-align: center;
+  color: #143742;
+  margin: -40px auto;
+  margin-bottom: 10px;
+}
+
+.infoheader .h1 {
+  margin-bottom: 10px;
+}
+
+.roomplan {
+  flex: 1;
+  margin: 0 15px;
+}
+
+#bedId1 {
+  margin: -63px 195px;
+}
+
+#red-circle {
+  background-color: #f13519;
+  height: 20px;
+  -moz-border-radius:75px;
+  -webkit-border-radius: 75px;
+  width: 20px;
+  display: inline-block;
+  position:  absolute;
+  margin: 0px -30px;
+  visibility: hidden;
+}
+
+#yellow-circle {
+  background-color: #d99a36;
+  height: 20px;
+  -moz-border-radius:75px;
+  -webkit-border-radius: 75px;
+  width: 20px;
+  display:  inline-block;
+  position:  absolute;
+  visibility: hidden;
+}
+
+#green-circle {
+  background-color: #00b950;
+  height: 20px;
+  -moz-border-radius:75px;
+  -webkit-border-radius: 75px;
+  width: 20px;
+  display: inline-block;
+  position:  absolute;
+  margin: 0px 30px;
+  visibility: hidden;
+}
+
+.messages {
+  flex: 2;
+  margin: 0 15px;
+  overflow-y:scroll;
+  overflow-x: hidden;
+  height: 350px;
+}
+
+/* MESSAGES */
+
+.message{
+  background-size: 40px 40px;
+  background-image: linear-gradient(135deg, rgba(255, 255, 255, .05) 25%, transparent 25%,
+  transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%,
+  transparent 75%, transparent);
+  box-shadow: inset 0 -1px 0 rgba(255,255,255,.4);
+  width: 100%;
+  border: 1px solid;
+  color: #fff;
+  padding: 15px;
+  text-shadow: 0 1px 0 rgba(0,0,0,.5);
+  animation: animate-bg 5s linear infinite;
+}
+
+.redMsg{
+  background-color: #de4343;
+  border-color: #c43d3d;
+}
+
+.yellowMsg{
+  background-color: #eaaf51;
+  border-color: #d99a36;
+}
+
+.greenMsg{
+  background-color: #61b832;
+  border-color: #55a12c;
+}
+
+.message h3{
+  margin: 0 0 5px 0;
+}
+
+.message p{
+  margin: 0;
+}
+
+@keyframes animate-bg {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -80px 0;
+  }
+}
