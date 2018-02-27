@@ -16,4 +16,4 @@ Bearbeitet von: Jane Corleis, Nathalie Kuhn, Simone Zajac
 * Drucksensor, zu wenig Bewegung: Hand auf die kennzeichnete Fläche auf dem Bett legen und nicht bewegen. Nach 9 Sekunden Vibriert der Vibrationsmotor ein erstes mal, nach weiteren 9 Sekunden ein zweites mal. Anschließend entsteht eine Meldung und die rote LED blinkt
 * Drucksensor, unnatürliche Bewegung: Hand auf die kennzeichnete Fläche auf dem Bett legen und abwechselnd stark und schwach darauf drücken (den Druck dabei nicht auf null kommen lassen). Nach 5 Sekunden entsteht eine Meldung und die rote LED blinkt
 * Drucksensor, keine Person im Bett: Drucksensor nicht berühren, nach 15 Sekunden entsteht eine Meldung und die grüne LED blinkt
-
+* Meldungen können durch einen Doppelklick entfernt werden
