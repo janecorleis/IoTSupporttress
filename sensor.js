@@ -151,7 +151,7 @@ board.on("ready", function() {
 				ml_count2++;
 				console.log("Person bewegt sich nicht mehr");
 				//Person wird durch Motor angeregt sich zu bewegen
-				motor.start(255);
+				motor.start(30);
 
 				board.wait(3000, function() {
 					motor.stop();
@@ -192,6 +192,7 @@ board.on("ready", function() {
 	});
 
 	wtr.scale([0, 1]).on("data", function() {
+		console.log("wasser" + this.scaled);
 		//ist Wert 1, hat sich Person eingenaesst und die gelbe LED blinkt auf
 		if(this.scaled > 0){
 			if(wet == false){

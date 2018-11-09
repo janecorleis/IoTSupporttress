@@ -3,21 +3,7 @@
         "messageId": 1,
         "roomId": 2,
         "bedId": 3,
-        "message": "Person hat sich eingenaesst",
-        "ledcolor": "yellow"
-    },
-    {
-        "messageId": 2,
-        "roomId": 2,
-        "bedId": 3,
-        "message": "Person weist zu schnelle Bewegung auf",
+        "message": "Person hat sich zu lange nicht mehr bewegt",
         "ledcolor": "red"
-    },
-    {
-        "messageId": 3,
-        "roomId": 2,
-        "bedId": 3,
-        "message": "Person befindet sich nicht im Bett",
-        "ledcolor": "green"
     }
 ]
